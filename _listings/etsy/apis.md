@@ -1,26 +1,20 @@
 ---
 name: Etsy
 x-slug: etsy
-description: Etsy is a website that focuses on handmade and vintage items, as well
-  as art and craft supplies. The items include art, photography, clothing, jewelry,
-  edibles, quilts, and toys. Etsy is modeled after open craft fairs that give sellers
-  personal storefronts where they can list their goods. The company charges users
-  a flat listing fee (of 20 cents per items), and takes a commission of 3.5% off all
-  items sold. Since its launch in June 2005, the site has continually added new widgets
-  and features, and has seen corresponding growth.
-image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+description: Find handmade, vintage, and unique goods that express who you are.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "187"
 tags: Etsy
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/etsy/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Etsy Get Countries Country
   x-api-slug: etsy
   description: Retrieves a Country by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//countries/{country_id}
   tags: Countries,Country
@@ -30,7 +24,7 @@ apis:
 - name: Etsy Get Countries
   x-api-slug: etsy
   description: Finds all Country.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//countries
   tags: Countries
@@ -42,7 +36,7 @@ apis:
 - name: Etsy Get Users User Favorites Listings
   x-api-slug: etsy
   description: Finds all favorite listings for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/listings
   tags: Users,Favorites,Listings
@@ -52,7 +46,7 @@ apis:
 - name: Etsy Get Users User Favorites Listings Listing
   x-api-slug: etsy
   description: Finds a favorite listing for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/listings/{listing_id}
   tags: Users,Favorites,Listings
@@ -62,7 +56,7 @@ apis:
 - name: Etsy Post Users User Favorites Listings Listing
   x-api-slug: etsy
   description: Creates a new favorite listing for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/listings/{listing_id}
   tags: Users,Favorites,Listings
@@ -72,7 +66,7 @@ apis:
 - name: Etsy Delete Users User Favorites Listings Listing
   x-api-slug: etsy
   description: Delete a favorite listing for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/listings/{listing_id}
   tags: Users,Favorites,Listings
@@ -82,7 +76,7 @@ apis:
 - name: Etsy Get Users User Favorites Users
   x-api-slug: etsy
   description: Finds all favorite users for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/users
   tags: Users,Favorites,Users
@@ -92,7 +86,7 @@ apis:
 - name: Etsy Get Users User Favorites Users Target User
   x-api-slug: etsy
   description: Finds a favorite user for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/users/{target_user_id}
   tags: Users,Favorites,Users,Target,User
@@ -102,7 +96,7 @@ apis:
 - name: Etsy Post Users User Favorites Users Target User
   x-api-slug: etsy
   description: Creates a new favorite listing for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/users/{target_user_id}
   tags: Users,Favorites,Users,Target,User
@@ -112,7 +106,7 @@ apis:
 - name: Etsy Delete Users User Favorites Users Target User
   x-api-slug: etsy
   description: Delete a favorite listing for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favorites/users/{target_user_id}
   tags: Users,Favorites,Users,Target,User
@@ -122,7 +116,7 @@ apis:
 - name: Etsy Get Homepages Pickers
   x-api-slug: etsy
   description: Finds all FeaturedListingPicker in scope active.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/pickers/
   tags: Home Pages,Pickers
@@ -132,7 +126,7 @@ apis:
 - name: Etsy Get Homepages Pickers Featured Listing Picker
   x-api-slug: etsy
   description: Retrieves a FeaturedListingPicker by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/pickers/{featured_listing_picker_id}
   tags: Home Pages,Pickers,Featured,Listing,Picker
@@ -142,7 +136,7 @@ apis:
 - name: Etsy Get Homepages Pickers Featured Listing Picker Featured
   x-api-slug: etsy
   description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/pickers/{featured_listing_picker_id}/featured
   tags: Home Pages,Pickers,Featured,Listing,Picker,Featured
@@ -152,7 +146,7 @@ apis:
 - name: Etsy Get Homepages Pickers Featured Listing Picker Listings
   x-api-slug: etsy
   description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/pickers/{featured_listing_picker_id}/listings
   tags: Home Pages,Pickers,Featured,Listing,Picker,Listings
@@ -163,7 +157,7 @@ apis:
   x-api-slug: etsy
   description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
     in scope active.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/pickers/{featured_listing_picker_id}/listings/active
   tags: Home Pages,Pickers,Featured,Listing,Picker,Listings,Active
@@ -173,7 +167,7 @@ apis:
 - name: Etsy Get Homepages Listings
   x-api-slug: etsy
   description: Finds all FeaturedListings regardless of Listing state
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/listings/
   tags: Home Pages,Listings
@@ -183,7 +177,7 @@ apis:
 - name: Etsy Get Homepages Listings Active
   x-api-slug: etsy
   description: Finds all FeaturedListings that point to active Listings
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/listings/active
   tags: Home Pages,Listings,Active
@@ -193,7 +187,7 @@ apis:
 - name: Etsy Get Homepages Listings Featured Listing
   x-api-slug: etsy
   description: Retrieves a FeaturedListing by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/listings/{featured_listing_id}
   tags: Home Pages,Listings,Featured,Listing
@@ -203,7 +197,7 @@ apis:
 - name: Etsy Get Homepages Listings Featured Listing Picker
   x-api-slug: etsy
   description: Retrieves a set of FeaturedListingPicker objects associated to a FeaturedListing.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/listings/{featured_listing_id}/picker
   tags: Home Pages,Listings,Featured,Listing,Picker
@@ -213,7 +207,7 @@ apis:
 - name: Etsy Get Homepages Listings Featured Listing Listing
   x-api-slug: etsy
   description: Retrieves a set of Listing objects associated to a FeaturedListing.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//homepages/listings/{featured_listing_id}/listing
   tags: Home Pages,Listings,Featured,Listing,Listing
@@ -223,7 +217,7 @@ apis:
 - name: Etsy Get Listings Listing Images Listing Image
   x-api-slug: etsy
   description: Retrieves a ListingImage by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/images/{listing_image_id}
   tags: Listings,Images,Listing,Image
@@ -233,7 +227,7 @@ apis:
 - name: Etsy Delete Listings Listing Images Listing Image
   x-api-slug: etsy
   description: Deletes a listing image
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/images/{listing_image_id}
   tags: Listings,Images,Listing,Image
@@ -243,7 +237,7 @@ apis:
 - name: Etsy Post Listings Listing Images
   x-api-slug: etsy
   description: Upload a new listing image
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/images
   tags: Listings,Images
@@ -253,7 +247,7 @@ apis:
 - name: Etsy Get Listings Listing Images
   x-api-slug: etsy
   description: Retrieves a set of ListingImage objects associated to a Listing.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/images
   tags: Listings,Images
@@ -263,7 +257,7 @@ apis:
 - name: Etsy Get Listings Listing
   x-api-slug: etsy
   description: Retrieves a Listing by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}
   tags: Listings
@@ -275,7 +269,7 @@ apis:
 - name: Etsy Put Listings Listing
   x-api-slug: etsy
   description: Updates a Listing
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}
   tags: Listings
@@ -287,7 +281,7 @@ apis:
 - name: Etsy Delete Listings Listing
   x-api-slug: etsy
   description: Deletes a Listing
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}
   tags: Listings
@@ -299,7 +293,7 @@ apis:
 - name: Etsy Get Listings Listing Favored By
   x-api-slug: etsy
   description: Retrieves a set of FavoriteListing objects associated to a Listing.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/favored-by
   tags: Listings,Favored-by
@@ -311,7 +305,7 @@ apis:
 - name: Etsy Get Listings Listing Shipping Info
   x-api-slug: etsy
   description: Retrieves a set of ShippingInfo objects associated to a Listing.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/shipping/info
   tags: Listings,Shipping,Info
@@ -321,7 +315,7 @@ apis:
 - name: Etsy Post Listings Listing Shipping Info
   x-api-slug: etsy
   description: Creates a new ShippingInfo.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/shipping/info
   tags: Listings,Shipping,Info
@@ -331,7 +325,7 @@ apis:
 - name: Etsy Get Listings Listing Payments
   x-api-slug: etsy
   description: Retrieves a set of ListingPayment objects associated to a Listing.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/{listing_id}/payments
   tags: Listings,Payments
@@ -341,7 +335,7 @@ apis:
 - name: Etsy Get Listings Active
   x-api-slug: etsy
   description: Finds all active Listing
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings/active
   tags: Listings,Active
@@ -353,7 +347,7 @@ apis:
 - name: Etsy Get Shops Shop Listings Active
   x-api-slug: etsy
   description: Finds all active Listings associated with a Shop
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/active
   tags: Shops,Shop,Listings,Active
@@ -365,7 +359,7 @@ apis:
 - name: Etsy Post Listings
   x-api-slug: etsy
   description: Creates a new Listing
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//listings
   tags: Listings
@@ -377,7 +371,7 @@ apis:
 - name: Etsy Get Orders Order
   x-api-slug: etsy
   description: Retrieves a Order by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//orders/{order_id}
   tags: Orders,Order
@@ -387,7 +381,7 @@ apis:
 - name: Etsy Get Orders Order Receipts
   x-api-slug: etsy
   description: Retrieves a set of Receipt objects associated to a Order.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//orders/{order_id}/receipts
   tags: Orders,Order,Receipts
@@ -397,7 +391,7 @@ apis:
 - name: Etsy Get Receipts Receipt
   x-api-slug: etsy
   description: Retrieves a Receipt by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//receipts/{receipt_id}
   tags: Receipts,Receipt
@@ -409,7 +403,7 @@ apis:
 - name: Etsy Put Receipts Receipt
   x-api-slug: etsy
   description: Updates a Receipt
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//receipts/{receipt_id}
   tags: Receipts,Receipt
@@ -421,7 +415,7 @@ apis:
 - name: Etsy Get Receipts Receipt Transactions
   x-api-slug: etsy
   description: Retrieves a set of Transaction objects associated to a Receipt.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//receipts/{receipt_id}/transactions
   tags: Receipts,Receipt,Transactions
@@ -433,7 +427,7 @@ apis:
   description: Get recommended listings for an authenticated member. The number of
     listings returned may not match the specified limit if there is no activity from
     recommended shops.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/recommended_listings
   tags: Users,Recommended,Listings
@@ -444,7 +438,7 @@ apis:
   x-api-slug: etsy
   description: Registers rejections of recommended listings. Affects future recommended
     listings.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/recommended_listings/rejects/{listing_ids}
   tags: Users,Recommended,Listings,Rejects,Listings
@@ -455,7 +449,7 @@ apis:
   x-api-slug: etsy
   description: Register viewings of recommended listings. Affects future recommended
     listings.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/recommended_listings/views/{listing_ids}
   tags: Users,Recommended,Listings,Views,Listings
@@ -465,7 +459,7 @@ apis:
 - name: Etsy Get Regions Region
   x-api-slug: etsy
   description: Retrieves a Region by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//regions/{region_id}
   tags: Regions,Region
@@ -475,7 +469,7 @@ apis:
 - name: Etsy Get Regions
   x-api-slug: etsy
   description: Finds all Region.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//regions
   tags: Regions
@@ -487,7 +481,7 @@ apis:
 - name: Etsy Get Shipping Info Shipping Info
   x-api-slug: etsy
   description: Retrieves a ShippingInfo by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/info/{shipping_info_id}
   tags: Shipping,Info,Shipping,Info
@@ -497,7 +491,7 @@ apis:
 - name: Etsy Put Shipping Info Shipping Info
   x-api-slug: etsy
   description: Updates a ShippingInfo with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/info/{shipping_info_id}
   tags: Shipping,Info,Shipping,Info
@@ -507,7 +501,7 @@ apis:
 - name: Etsy Delete Shipping Info Shipping Info
   x-api-slug: etsy
   description: Deletes the ShippingInfo with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/info/{shipping_info_id}
   tags: Shipping,Info,Shipping,Info
@@ -517,7 +511,7 @@ apis:
 - name: Etsy Get Shipping Templates Entries Shipping Template Entry
   x-api-slug: etsy
   description: Retrieves a ShippingTemplateEntry by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/entries/{shipping_template_entry_id}
   tags: Shipping,Templates,Entries,Shipping,Template,Entry
@@ -527,7 +521,7 @@ apis:
 - name: Etsy Put Shipping Templates Entries Shipping Template Entry
   x-api-slug: etsy
   description: Updates a ShippingTemplateEntry
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/entries/{shipping_template_entry_id}
   tags: Shipping,Templates,Entries,Shipping,Template,Entry
@@ -537,7 +531,7 @@ apis:
 - name: Etsy Delete Shipping Templates Entries Shipping Template Entry
   x-api-slug: etsy
   description: Deletes a ShippingTemplateEntry
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/entries/{shipping_template_entry_id}
   tags: Shipping,Templates,Entries,Shipping,Template,Entry
@@ -547,7 +541,7 @@ apis:
 - name: Etsy Post Shipping Templates Entries
   x-api-slug: etsy
   description: Creates a new ShippingTemplateEntry
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/entries
   tags: Shipping,Templates,Entries
@@ -557,7 +551,7 @@ apis:
 - name: Etsy Get Shipping Templates Shipping Template
   x-api-slug: etsy
   description: Retrieves a ShippingTemplate by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/{shipping_template_id}
   tags: Shipping,Templates,Shipping,Template
@@ -567,7 +561,7 @@ apis:
 - name: Etsy Delete Shipping Templates Shipping Template
   x-api-slug: etsy
   description: Deletes the ShippingTemplate with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/{shipping_template_id}
   tags: Shipping,Templates,Shipping,Template
@@ -577,7 +571,7 @@ apis:
 - name: Etsy Put Shipping Templates Shipping Template
   x-api-slug: etsy
   description: Updates a ShippingTemplate
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/{shipping_template_id}
   tags: Shipping,Templates,Shipping,Template
@@ -587,7 +581,7 @@ apis:
 - name: Etsy Get Shipping Templates Shipping Template Entries
   x-api-slug: etsy
   description: Retrieves a set of ShippingTemplateEntry objects associated to a ShippingTemplate.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates/{shipping_template_id}/entries
   tags: Shipping,Templates,Shipping,Template,Entries
@@ -597,7 +591,7 @@ apis:
 - name: Etsy Post Shipping Templates
   x-api-slug: etsy
   description: Creates a new ShippingTemplate
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shipping/templates
   tags: Shipping,Templates
@@ -607,7 +601,7 @@ apis:
 - name: Etsy Get Shops Shop
   x-api-slug: etsy
   description: Retrieves a Shop by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}
   tags: Shops,Shop
@@ -619,7 +613,7 @@ apis:
 - name: Etsy Put Shops Shop
   x-api-slug: etsy
   description: Updates a Shop
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}
   tags: Shops,Shop
@@ -631,7 +625,7 @@ apis:
 - name: Etsy Get Shops Shop Receipts
   x-api-slug: etsy
   description: Retrieves a set of Receipt objects associated to a Shop.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/receipts
   tags: Shops,Shop,Receipts
@@ -643,7 +637,7 @@ apis:
 - name: Etsy Get Shops Shop Transactions
   x-api-slug: etsy
   description: Retrieves a set of Transaction objects associated to a Shop.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/transactions
   tags: Shops,Shop,Transactions
@@ -653,7 +647,7 @@ apis:
 - name: Etsy Get Shops Shop Sections
   x-api-slug: etsy
   description: Retrieves a set of ShopSection objects associated to a Shop.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/sections
   tags: Shops,Shop,Sections
@@ -666,7 +660,7 @@ apis:
   x-api-slug: etsy
   description: Finds all Shops. If there is a keywords parameter, finds shops with
     shop_name starting with keywords.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops
   tags: Shops
@@ -678,7 +672,7 @@ apis:
 - name: Etsy Get Shops Shop Listings Featured
   x-api-slug: etsy
   description: Retrieves Listings associated to a Shop that are featured
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/featured
   tags: Shops,Shop,Listings,Featured
@@ -690,7 +684,7 @@ apis:
 - name: Etsy Get Shops Shop Listings Inactive
   x-api-slug: etsy
   description: Retrieves Listings associated to a Shop that are inactive
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/inactive
   tags: Shops,Shop,Listings,Inactive
@@ -702,7 +696,7 @@ apis:
 - name: Etsy Get Shops Shop Listings Expired
   x-api-slug: etsy
   description: Retrieves Listings associated to a Shop that are expired
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/expired
   tags: Shops,Shop,Listings,Expired
@@ -714,7 +708,7 @@ apis:
 - name: Etsy Get Shops Shop Listings Inactive Listing
   x-api-slug: etsy
   description: Retrieves a Listing associated to a Shop that is inactive
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/inactive/{listing_id}
   tags: Shops,Shop,Listings,Inactive,Listing
@@ -726,7 +720,7 @@ apis:
 - name: Etsy Get Shops Shop Listings Expired Listing
   x-api-slug: etsy
   description: Retrieves a Listing associated to a Shop that is inactive
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/expired/{listing_id}
   tags: Shops,Shop,Listings,Expired,Listing
@@ -738,7 +732,7 @@ apis:
 - name: Etsy Post Shops Shop Appearance Banner
   x-api-slug: etsy
   description: Upload a new shop banner image
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/appearance/banner
   tags: Shops,Shop,Appearance,Banner
@@ -750,7 +744,7 @@ apis:
 - name: Etsy Delete Shops Shop Appearance Banner Shop Banner
   x-api-slug: etsy
   description: Deletes a shop banner image
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/appearance/banner/{shop_banner_id}
   tags: Shops,Shop,Appearance,Banner,Shop,Banner
@@ -762,7 +756,7 @@ apis:
 - name: Etsy Get Sections Shop Section
   x-api-slug: etsy
   description: Retrieves a ShopSection by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//sections/{shop_section_id}
   tags: Sections,Shop,Section
@@ -774,7 +768,7 @@ apis:
 - name: Etsy Put Sections Shop Section
   x-api-slug: etsy
   description: Updates a ShopSection with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//sections/{shop_section_id}
   tags: Sections,Shop,Section
@@ -786,7 +780,7 @@ apis:
 - name: Etsy Delete Sections Shop Section
   x-api-slug: etsy
   description: Deletes the ShopSection with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//sections/{shop_section_id}
   tags: Sections,Shop,Section
@@ -798,7 +792,7 @@ apis:
 - name: Etsy Post Sections
   x-api-slug: etsy
   description: Creates a new ShopSection.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//sections
   tags: Sections
@@ -810,7 +804,7 @@ apis:
 - name: Etsy Get Categories Tag
   x-api-slug: etsy
   description: Retrieves a top-level Category by tag.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//categories/{tag}
   tags: Categories,Tag
@@ -820,7 +814,7 @@ apis:
 - name: Etsy Get Categories Tag Subtag
   x-api-slug: etsy
   description: Retrieves a second-level Category by tag and subtag.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//categories/{tag}/{subtag}
   tags: Categories,Tag,Subtag
@@ -830,7 +824,7 @@ apis:
 - name: Etsy Get Categories Tag Subtag Subsubtag
   x-api-slug: etsy
   description: Retrieves a third-level Category by tag, subtag and subsubtag.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//categories/{tag}/{subtag}/{subsubtag}
   tags: Categories,Tag,Subtag,Subsubtag
@@ -840,7 +834,7 @@ apis:
 - name: Etsy Get Taxonomy Categories
   x-api-slug: etsy
   description: Retrieves all top-level Categories.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//taxonomy/categories
   tags: Taxonomy,Categories
@@ -850,7 +844,7 @@ apis:
 - name: Etsy Get Taxonomy Categories Tag
   x-api-slug: etsy
   description: Retrieves children of a top-level Category by tag.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//taxonomy/categories/{tag}
   tags: Taxonomy,Categories,Tag
@@ -860,7 +854,7 @@ apis:
 - name: Etsy Get Taxonomy Categories Tag Subtag
   x-api-slug: etsy
   description: Retrieves children of a second-level Category by tag and subtag.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//taxonomy/categories/{tag}/{subtag}
   tags: Taxonomy,Categories,Tag,Subtag
@@ -870,7 +864,7 @@ apis:
 - name: Etsy Get Taxonomy Tags
   x-api-slug: etsy
   description: Retrieves all related tags for the given tag set.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//taxonomy/tags
   tags: Taxonomy,Tags
@@ -880,7 +874,7 @@ apis:
 - name: Etsy Get Taxonomy Tags Tags
   x-api-slug: etsy
   description: Retrieves all related tags for the given tag set.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//taxonomy/tags/{tags}
   tags: Taxonomy,Tags,Tags
@@ -890,7 +884,7 @@ apis:
 - name: Etsy Get Transactions Transaction
   x-api-slug: etsy
   description: Retrieves a Transaction by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//transactions/{transaction_id}
   tags: Transactions,Transaction
@@ -900,7 +894,7 @@ apis:
 - name: Etsy Get Treasuries Treasury
   x-api-slug: etsy
   description: Get a Treasury
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//treasuries/{treasury_id}
   tags: Treasuries
@@ -910,7 +904,7 @@ apis:
 - name: Etsy Get Treasuries
   x-api-slug: etsy
   description: Search Treasuries or else List all Treasuries
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//treasuries
   tags: Treasuries
@@ -920,7 +914,7 @@ apis:
 - name: Etsy Get Users User Treasuries
   x-api-slug: etsy
   description: Get a user's Treasuries
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/treasuries
   tags: Users,Treasuries
@@ -930,7 +924,7 @@ apis:
 - name: Etsy Get Users User
   x-api-slug: etsy
   description: Retrieves a User by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}
   tags: Users
@@ -942,7 +936,7 @@ apis:
 - name: Etsy Get Users User Shops
   x-api-slug: etsy
   description: Retrieves a set of Shop objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/shops
   tags: Users,Shops
@@ -952,7 +946,7 @@ apis:
 - name: Etsy Get Users User Favored By
   x-api-slug: etsy
   description: Retrieves a set of FavoriteUser objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/favored-by
   tags: Users,Favored-by
@@ -962,7 +956,7 @@ apis:
 - name: Etsy Get Users User Feedback As Subject
   x-api-slug: etsy
   description: Retrieves a set of Feedback objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/feedback/as-subject
   tags: Users,Feedback,As-subject
@@ -972,7 +966,7 @@ apis:
 - name: Etsy Get Users User Feedback As Author
   x-api-slug: etsy
   description: Retrieves a set of Feedback objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/feedback/as-author
   tags: Users,Feedback,As-author
@@ -982,7 +976,7 @@ apis:
 - name: Etsy Get Users User Feedback As Buyer
   x-api-slug: etsy
   description: Retrieves a set of Feedback objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/feedback/as-buyer
   tags: Users,Feedback,As-buyer
@@ -992,7 +986,7 @@ apis:
 - name: Etsy Get Users User Feedback As Seller
   x-api-slug: etsy
   description: Retrieves a set of Feedback objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/feedback/as-seller
   tags: Users,Feedback,As-seller
@@ -1002,7 +996,7 @@ apis:
 - name: Etsy Get Users User Orders
   x-api-slug: etsy
   description: Retrieves a set of Order objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/orders
   tags: Users,Orders
@@ -1012,7 +1006,7 @@ apis:
 - name: Etsy Get Users User Receipts
   x-api-slug: etsy
   description: Retrieves a set of Receipt objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/receipts
   tags: Users,Receipts
@@ -1022,7 +1016,7 @@ apis:
 - name: Etsy Get Users User Transactions
   x-api-slug: etsy
   description: Retrieves a set of Transaction objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/transactions
   tags: Users,Transactions
@@ -1032,7 +1026,7 @@ apis:
 - name: Etsy Get Users User Charges
   x-api-slug: etsy
   description: Retrieves a set of BillCharge objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/charges
   tags: Users,Charges
@@ -1042,7 +1036,7 @@ apis:
 - name: Etsy Get Users User Payments
   x-api-slug: etsy
   description: Retrieves a set of BillPayment objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/payments
   tags: Users,Payments
@@ -1052,7 +1046,7 @@ apis:
 - name: Etsy Get Users User Shipping Templates
   x-api-slug: etsy
   description: Retrieves a set of ShippingTemplate objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/shipping/templates
   tags: Users,Shipping,Templates
@@ -1062,7 +1056,7 @@ apis:
 - name: Etsy Get Users User Payments Templates
   x-api-slug: etsy
   description: Retrieves a set of PaymentTemplate objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/payments/templates
   tags: Users,Payments,Templates
@@ -1072,7 +1066,7 @@ apis:
 - name: Etsy Get Users User Addresses
   x-api-slug: etsy
   description: Retrieves a set of UserAddress objects associated to a User.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/addresses
   tags: Users,Addresses
@@ -1082,7 +1076,7 @@ apis:
 - name: Etsy Post Users User Addresses
   x-api-slug: etsy
   description: Creates a new UserAddress.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/addresses
   tags: Users,Addresses
@@ -1092,7 +1086,7 @@ apis:
 - name: Etsy Get Payments Templates Payment Template
   x-api-slug: etsy
   description: Retrieves a PaymentTemplate by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//payments/templates/{payment_template_id}
   tags: Payments,Templates,Payment,Template
@@ -1102,7 +1096,7 @@ apis:
 - name: Etsy Put Payments Templates Payment Template
   x-api-slug: etsy
   description: Updates a PaymentTemplate
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//payments/templates/{payment_template_id}
   tags: Payments,Templates,Payment,Template
@@ -1112,7 +1106,7 @@ apis:
 - name: Etsy Post Payments Templates
   x-api-slug: etsy
   description: Creates a new PaymentTemplate
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//payments/templates
   tags: Payments,Templates
@@ -1122,7 +1116,7 @@ apis:
 - name: Etsy Get Payments Listing Payment
   x-api-slug: etsy
   description: Retrieves a ListingPayment by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//payments/{listing_payment_id}
   tags: Payments,Listing,Payment
@@ -1132,7 +1126,7 @@ apis:
 - name: Etsy Post Users User Avatar
   x-api-slug: etsy
   description: Upload a new user avatar image
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/avatar
   tags: Users,Avatar
@@ -1142,7 +1136,7 @@ apis:
 - name: Etsy Get Users User Avatar Src
   x-api-slug: etsy
   description: Get avatar image source
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/avatar/src
   tags: Users,Avatar,Src
@@ -1152,7 +1146,7 @@ apis:
 - name: Etsy Get Users User Addresses User Address
   x-api-slug: etsy
   description: Retrieves a UserAddress by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/addresses/{user_address_id}
   tags: Users,Addresses,User,Address
@@ -1162,7 +1156,7 @@ apis:
 - name: Etsy Put Users User Addresses User Address
   x-api-slug: etsy
   description: Updates a UserAddress with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/addresses/{user_address_id}
   tags: Users,Addresses,User,Address
@@ -1172,7 +1166,7 @@ apis:
 - name: Etsy Delete Users User Addresses User Address
   x-api-slug: etsy
   description: Deletes the UserAddress with the given id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//users/{user_id}/addresses/{user_address_id}
   tags: Users,Addresses,User,Address
@@ -1182,7 +1176,7 @@ apis:
 - name: Etsy Get Featured Users
   x-api-slug: etsy
   description: Finds all FeaturedUser.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//featured/users
   tags: Featured,Users
@@ -1192,7 +1186,7 @@ apis:
 - name: Etsy Get Featured Users Featured User
   x-api-slug: etsy
   description: Retrieves a FeaturedUser by id.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//featured/users/{featured_user_id}
   tags: Featured,Users,Featured,User
@@ -1202,7 +1196,7 @@ apis:
 - name: Etsy Get
   x-api-slug: etsy
   description: Get a list of all methods available.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//
   tags: ""
@@ -1214,7 +1208,7 @@ apis:
 - name: Etsy Get Server Epoch
   x-api-slug: etsy
   description: Get server time, in epoch seconds notation.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//server/epoch
   tags: Server,Epoch
@@ -1226,7 +1220,7 @@ apis:
 - name: Etsy Get Server Ping
   x-api-slug: etsy
   description: Check that the server is alive.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private//server/ping
   tags: Server,Ping
@@ -1242,7 +1236,7 @@ apis:
     desktop and mobile devices. Applications built on the API will connect buyers
     with sellers, promote the handmade lifestyle, and support the craftspeople who
     sell on Etsy.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Etsy
@@ -1250,7 +1244,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/etsy/master/_listings/etsy/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
@@ -1263,9 +1257,23 @@ x-common:
 - type: x-copyright
   url: https://www.etsy.com/help/article/482/?ref=ftr
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/etsy
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/etsy
 - type: x-developer
   url: https://www.etsy.com/developers/
+- type: x-email
+  url: enaffiliates@etsy.com
+- type: x-email
+  url: selleraffiliate@etsy.com
+- type: x-email
+  url: developer@etsy.com
+- type: x-email
+  url: legal@etsy.com
+- type: x-email
+  url: dpo@etsy.com
+- type: x-email
+  url: dispute-resolution@etsy.com
 - type: x-forum
   url: https://www.etsy.com/developers/discussion
 - type: x-github

@@ -2184,38 +2184,4 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Retrieves a set of ShippingTemplateEntry objects associated to a ShippingTemplate."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "b64a50f3-d0b2-4c1e-91de-6957b83870a7"
-            }
-          ]
-        },
-        {
-          "id": "7c03f2d1-2c81-4018-a83d-bb918b490e4b",
-          "name": "postShippingTemplates",
-          "request": {
-            "url": "http://openapi.etsy.com/v2/private/shipping/templates?destination_country_id=%7B%7D&destination_region_id=%7B%7D&origin_country_id=%7B%7D&primary_cost=%7B%7D&secondary_cost=%7B%7D&title=%7B%7D",
-            "method": "POST",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Creates a new ShippingTemplate"
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "cfdfd6b4-7b00-42cf-a02d-18e364222e95"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "description": "Retrieves a set of ShippingTemplateEntry objects associated to a ShippingTemplate.
