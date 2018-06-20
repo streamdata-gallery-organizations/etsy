@@ -7,7 +7,7 @@ info:
   description: Retrieves a FeaturedListing by id.
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -21,6 +21,9 @@ paths:
       description: Retrieves a Country by id.
       operationId: getCountriesCountry
       x-api-path-slug: countriescountry-id-get
+      parameters:
+      - in: path
+        name: country_id
       responses:
         200:
           description: OK
@@ -44,6 +47,15 @@ paths:
       description: Finds all favorite listings for a user
       operationId: getUsersUserFavoritesListings
       x-api-path-slug: usersuser-idfavoriteslistings-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -57,6 +69,11 @@ paths:
       description: Finds a favorite listing for a user
       operationId: getUsersUserFavoritesListingsListing
       x-api-path-slug: usersuser-idfavoriteslistingslisting-id-get
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -69,6 +86,11 @@ paths:
       description: Creates a new favorite listing for a user
       operationId: postUsersUserFavoritesListingsListing
       x-api-path-slug: usersuser-idfavoriteslistingslisting-id-post
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -81,6 +103,11 @@ paths:
       description: Delete a favorite listing for a user
       operationId: deleteUsersUserFavoritesListingsListing
       x-api-path-slug: usersuser-idfavoriteslistingslisting-id-delete
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -94,6 +121,15 @@ paths:
       description: Finds all favorite users for a user
       operationId: getUsersUserFavoritesUsers
       x-api-path-slug: usersuser-idfavoritesusers-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -107,6 +143,11 @@ paths:
       description: Finds a favorite user for a user
       operationId: getUsersUserFavoritesUsersTargetUser
       x-api-path-slug: usersuser-idfavoritesuserstarget-user-id-get
+      parameters:
+      - in: path
+        name: target_user_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -122,8 +163,12 @@ paths:
       operationId: postUsersUserFavoritesUsersTargetUser
       x-api-path-slug: usersuser-idfavoritesuserstarget-user-id-post
       parameters:
+      - in: path
+        name: target_user_id
       - in: query
         name: target_user_id
+      - in: path
+        name: user_id
       - in: query
         name: user_id
       responses:
@@ -140,6 +185,11 @@ paths:
       description: Delete a favorite listing for a user
       operationId: deleteUsersUserFavoritesUsersTargetUser
       x-api-path-slug: usersuser-idfavoritesuserstarget-user-id-delete
+      parameters:
+      - in: path
+        name: target_user_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -155,6 +205,13 @@ paths:
       description: Finds all FeaturedListingPicker in scope active.
       operationId: getHomepagesPickers
       x-api-path-slug: homepagespickers-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -167,6 +224,9 @@ paths:
       description: Retrieves a FeaturedListingPicker by id.
       operationId: getHomepagesPickersFeaturedListingPicker
       x-api-path-slug: homepagespickersfeatured-listing-picker-id-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
       responses:
         200:
           description: OK
@@ -182,6 +242,15 @@ paths:
       description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
       operationId: getHomepagesPickersFeaturedListingPickerFeatured
       x-api-path-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -198,6 +267,15 @@ paths:
       description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
       operationId: getHomepagesPickersFeaturedListingPickerListings
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistings-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -215,6 +293,15 @@ paths:
         in scope active.
       operationId: getHomepagesPickersFeaturedListingPickerListingsActive
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -232,6 +319,13 @@ paths:
       description: Finds all FeaturedListings regardless of Listing state
       operationId: getHomepagesListings
       x-api-path-slug: homepageslistings-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -244,6 +338,13 @@ paths:
       description: Finds all FeaturedListings that point to active Listings
       operationId: getHomepagesListingsActive
       x-api-path-slug: homepageslistingsactive-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -257,6 +358,9 @@ paths:
       description: Retrieves a FeaturedListing by id.
       operationId: getHomepagesListingsFeaturedListing
       x-api-path-slug: homepageslistingsfeatured-listing-id-get
+      parameters:
+      - in: path
+        name: featured_listing_id
       responses:
         200:
           description: OK

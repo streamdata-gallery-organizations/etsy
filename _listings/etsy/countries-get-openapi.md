@@ -7,7 +7,7 @@ info:
   description: Finds all Country.
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -21,6 +21,9 @@ paths:
       description: Retrieves a Country by id.
       operationId: getCountriesCountry
       x-api-path-slug: countriescountry-id-get
+      parameters:
+      - in: path
+        name: country_id
       responses:
         200:
           description: OK

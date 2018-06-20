@@ -9,7 +9,7 @@ info:
     recommended shops.
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -23,6 +23,9 @@ paths:
       description: Retrieves a Country by id.
       operationId: getCountriesCountry
       x-api-path-slug: countriescountry-id-get
+      parameters:
+      - in: path
+        name: country_id
       responses:
         200:
           description: OK
@@ -46,6 +49,15 @@ paths:
       description: Finds all favorite listings for a user
       operationId: getUsersUserFavoritesListings
       x-api-path-slug: usersuser-idfavoriteslistings-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -59,6 +71,11 @@ paths:
       description: Finds a favorite listing for a user
       operationId: getUsersUserFavoritesListingsListing
       x-api-path-slug: usersuser-idfavoriteslistingslisting-id-get
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -71,6 +88,11 @@ paths:
       description: Creates a new favorite listing for a user
       operationId: postUsersUserFavoritesListingsListing
       x-api-path-slug: usersuser-idfavoriteslistingslisting-id-post
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -83,6 +105,11 @@ paths:
       description: Delete a favorite listing for a user
       operationId: deleteUsersUserFavoritesListingsListing
       x-api-path-slug: usersuser-idfavoriteslistingslisting-id-delete
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -96,6 +123,15 @@ paths:
       description: Finds all favorite users for a user
       operationId: getUsersUserFavoritesUsers
       x-api-path-slug: usersuser-idfavoritesusers-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -109,6 +145,11 @@ paths:
       description: Finds a favorite user for a user
       operationId: getUsersUserFavoritesUsersTargetUser
       x-api-path-slug: usersuser-idfavoritesuserstarget-user-id-get
+      parameters:
+      - in: path
+        name: target_user_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -124,8 +165,12 @@ paths:
       operationId: postUsersUserFavoritesUsersTargetUser
       x-api-path-slug: usersuser-idfavoritesuserstarget-user-id-post
       parameters:
+      - in: path
+        name: target_user_id
       - in: query
         name: target_user_id
+      - in: path
+        name: user_id
       - in: query
         name: user_id
       responses:
@@ -142,6 +187,11 @@ paths:
       description: Delete a favorite listing for a user
       operationId: deleteUsersUserFavoritesUsersTargetUser
       x-api-path-slug: usersuser-idfavoritesuserstarget-user-id-delete
+      parameters:
+      - in: path
+        name: target_user_id
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
@@ -157,6 +207,13 @@ paths:
       description: Finds all FeaturedListingPicker in scope active.
       operationId: getHomepagesPickers
       x-api-path-slug: homepagespickers-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -169,6 +226,9 @@ paths:
       description: Retrieves a FeaturedListingPicker by id.
       operationId: getHomepagesPickersFeaturedListingPicker
       x-api-path-slug: homepagespickersfeatured-listing-picker-id-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
       responses:
         200:
           description: OK
@@ -184,6 +244,15 @@ paths:
       description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
       operationId: getHomepagesPickersFeaturedListingPickerFeatured
       x-api-path-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -200,6 +269,15 @@ paths:
       description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
       operationId: getHomepagesPickersFeaturedListingPickerListings
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistings-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -217,6 +295,15 @@ paths:
         in scope active.
       operationId: getHomepagesPickersFeaturedListingPickerListingsActive
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -234,6 +321,13 @@ paths:
       description: Finds all FeaturedListings regardless of Listing state
       operationId: getHomepagesListings
       x-api-path-slug: homepageslistings-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -246,6 +340,13 @@ paths:
       description: Finds all FeaturedListings that point to active Listings
       operationId: getHomepagesListingsActive
       x-api-path-slug: homepageslistingsactive-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -259,6 +360,9 @@ paths:
       description: Retrieves a FeaturedListing by id.
       operationId: getHomepagesListingsFeaturedListing
       x-api-path-slug: homepageslistingsfeatured-listing-id-get
+      parameters:
+      - in: path
+        name: featured_listing_id
       responses:
         200:
           description: OK
@@ -274,6 +378,9 @@ paths:
         a FeaturedListing.
       operationId: getHomepagesListingsFeaturedListingPicker
       x-api-path-slug: homepageslistingsfeatured-listing-idpicker-get
+      parameters:
+      - in: path
+        name: featured_listing_id
       responses:
         200:
           description: OK
@@ -289,6 +396,9 @@ paths:
       description: Retrieves a set of Listing objects associated to a FeaturedListing.
       operationId: getHomepagesListingsFeaturedListingListing
       x-api-path-slug: homepageslistingsfeatured-listing-idlisting-get
+      parameters:
+      - in: path
+        name: featured_listing_id
       responses:
         200:
           description: OK
@@ -304,6 +414,11 @@ paths:
       description: Retrieves a ListingImage by id.
       operationId: getListingsListingImagesListingImage
       x-api-path-slug: listingslisting-idimageslisting-image-id-get
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: listing_image_id
       responses:
         200:
           description: OK
@@ -317,6 +432,11 @@ paths:
       description: Deletes a listing image
       operationId: deleteListingsListingImagesListingImage
       x-api-path-slug: listingslisting-idimageslisting-image-id-delete
+      parameters:
+      - in: path
+        name: listing_id
+      - in: path
+        name: listing_image_id
       responses:
         200:
           description: OK
@@ -334,6 +454,8 @@ paths:
       parameters:
       - in: query
         name: image
+      - in: path
+        name: listing_id
       responses:
         200:
           description: OK
@@ -345,6 +467,9 @@ paths:
       description: Retrieves a set of ListingImage objects associated to a Listing.
       operationId: getListingsListingImages
       x-api-path-slug: listingslisting-idimages-get
+      parameters:
+      - in: path
+        name: listing_id
       responses:
         200:
           description: OK
@@ -357,6 +482,9 @@ paths:
       description: Retrieves a Listing by id.
       operationId: getListingsListing
       x-api-path-slug: listingslisting-id-get
+      parameters:
+      - in: path
+        name: listing_id
       responses:
         200:
           description: OK
@@ -370,6 +498,8 @@ paths:
       parameters:
       - in: query
         name: description
+      - in: path
+        name: listing_id
       - in: query
         name: materials
       - in: query
@@ -398,6 +528,9 @@ paths:
       description: Deletes a Listing
       operationId: deleteListingsListing
       x-api-path-slug: listingslisting-id-delete
+      parameters:
+      - in: path
+        name: listing_id
       responses:
         200:
           description: OK
@@ -409,6 +542,15 @@ paths:
       description: Retrieves a set of FavoriteListing objects associated to a Listing.
       operationId: getListingsListingFavoredBy
       x-api-path-slug: listingslisting-idfavoredby-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: listing_id
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -421,6 +563,15 @@ paths:
       description: Retrieves a set of ShippingInfo objects associated to a Listing.
       operationId: getListingsListingShippingInfo
       x-api-path-slug: listingslisting-idshippinginfo-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: listing_id
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -436,6 +587,8 @@ paths:
       parameters:
       - in: query
         name: destination_country_id
+      - in: path
+        name: listing_id
       - in: query
         name: origin_country_id
       - in: query
@@ -457,6 +610,9 @@ paths:
       description: Retrieves a set of ListingPayment objects associated to a Listing.
       operationId: getListingsListingPayments
       x-api-path-slug: listingslisting-idpayments-get
+      parameters:
+      - in: path
+        name: listing_id
       responses:
         200:
           description: OK
@@ -469,6 +625,43 @@ paths:
       description: Finds all active Listing
       operationId: getListingsActive
       x-api-path-slug: listingsactive-get
+      parameters:
+      - in: query
+        name: category
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: color
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: color_accuracy
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: keywords
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: materials
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: max_price
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: min_price
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: sort_on
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: sort_order
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: tags
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -481,6 +674,45 @@ paths:
       description: Finds all active Listings associated with a Shop
       operationId: getShopsShopListingsActive
       x-api-path-slug: shopsshop-idlistingsactive-get
+      parameters:
+      - in: query
+        name: category
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: color
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: color_accuracy
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: keywords
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: materials
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: max_price
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: min_price
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: shop_id
+      - in: query
+        name: sort_on
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: sort_order
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: tags
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -523,6 +755,9 @@ paths:
       description: Retrieves a Order by id.
       operationId: getOrdersOrder
       x-api-path-slug: ordersorder-id-get
+      parameters:
+      - in: path
+        name: order_id
       responses:
         200:
           description: OK
@@ -535,6 +770,15 @@ paths:
       description: Retrieves a set of Receipt objects associated to a Order.
       operationId: getOrdersOrderReceipts
       x-api-path-slug: ordersorder-idreceipts-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: order_id
       responses:
         200:
           description: OK
@@ -548,6 +792,9 @@ paths:
       description: Retrieves a Receipt by id.
       operationId: getReceiptsReceipt
       x-api-path-slug: receiptsreceipt-id-get
+      parameters:
+      - in: path
+        name: receipt_id
       responses:
         200:
           description: OK
@@ -566,6 +813,8 @@ paths:
         name: message_from_seller
       - in: query
         name: receipt_id
+      - in: path
+        name: receipt_id
       - in: query
         name: was_paid
       - in: query
@@ -582,6 +831,15 @@ paths:
       description: Retrieves a set of Transaction objects associated to a Receipt.
       operationId: getReceiptsReceiptTransactions
       x-api-path-slug: receiptsreceipt-idtransactions-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: receipt_id
       responses:
         200:
           description: OK
@@ -597,6 +855,15 @@ paths:
         from recommended shops.
       operationId: getUsersUserRecommendedListings
       x-api-path-slug: usersuser-idrecommended-listings-get
+      parameters:
+      - in: query
+        name: excluded_listing_ids
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: user_id
       responses:
         200:
           description: OK
