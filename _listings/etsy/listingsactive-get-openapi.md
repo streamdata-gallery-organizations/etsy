@@ -667,16 +667,16 @@ paths:
       - Listings
       - Active
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "1.26"
+  polling_size_download_average: "64681"
+  streaming_total_time_average: "0.67"
+  streaming_size_download_average: "32340.5"
+  change_yes: "1"
+  change_no: "1"
+  time_percentage: "47"
+  size_percentage: "50"
+  change_percentage: "50"
+  last_run: "2018-09-09"
+  days_run: "0"
+  minute_run: "0"
 ---

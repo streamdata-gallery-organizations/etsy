@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Etsy
-x-complete: 1
+x-complete: 0
 info:
-  title: Etsy
-  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  title: Etsy Get Interesting Listings
+  description: Collects the list of interesting listings
   version: 1.0.0
 host: openapi.etsy.com
 basePath: /v2/private/
@@ -2397,17 +2398,17 @@ paths:
       tags:
       - Products
       - Commerce
-  /listings/trending:
-    get:
-      summary: Get Trending Listings
-      description: Collects the list of listings used to generate the trending listing
-        page.
-      operationId: getTrendingListings
-      x-api-path-slug: listingstrending-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Products
-      - Commerce
-      - Trending
+x-streamrank:
+  polling_total_time_average: "0.9"
+  polling_size_download_average: "49597"
+  streaming_total_time_average: "0.49"
+  streaming_size_download_average: "24798.5"
+  change_yes: "1"
+  change_no: "1"
+  time_percentage: "45"
+  size_percentage: "50"
+  change_percentage: "50"
+  last_run: "2018-09-09"
+  days_run: "0"
+  minute_run: "0"
+---
